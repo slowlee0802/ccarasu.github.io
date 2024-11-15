@@ -59,6 +59,12 @@
     margin-top: 10px;
     margin-bottom: 10px;
   }
+  .win_num_menu>li{
+    float: left;
+    width: 200px;
+    height: 100px;
+    line-height: 30px;
+  }
   section#sct3 {
     float: left;
     width: 100%;
