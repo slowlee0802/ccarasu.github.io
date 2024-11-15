@@ -33,6 +33,34 @@
     border-radius: 5px;
     transition: background-color 0.3s;
   }
+  .mobile_menu:hover {
+    background-color: rgba(0,0,0,0.1);
+  }
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+  }
+  .nav-menu {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-menu a {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  .nav-menu a:hover {
+    background-color: rgba(0,0,0, 0.05);
+  }
   section {
     float: left;
     width: 100%;
