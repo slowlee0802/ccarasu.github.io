@@ -68,3 +68,9 @@ jQuery(document).ready(function () {
 
   fetchLottoData(); // 초기 데이터 로드
 });
+
+document.querySelector('.mobile_menu'),addEventListener('click', function() {
+  const navMenu = document.querySelector('.nav-menu');
+  navMenu.style.display = navMenu.style.display === 'none' ? 'flex' : 'none' ;
+});
+// 햄버거 메뉴 토글 기능 추가
