@@ -173,7 +173,16 @@
   footer {
     float: left;
     width: 100%;
-    height: 100px;
+    height: 140px;
     background-color: grey;
+  }
+  .share_sns li{
+    float: left;
+  }
+  .share_sns li img {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    margin-top: 45px;
   }
 }
