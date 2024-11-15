@@ -17,6 +17,7 @@ jQuery(document).ready(function(){
       return false;
     });
   });
+  //로또 당첨번호 탭 메뉴를 누르면 클래스가 추가되고 기존 클래스 삭제하는 기능
   $(document).ready(function () {
   const slider = $(".lotto");
 
