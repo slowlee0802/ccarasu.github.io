@@ -9,6 +9,14 @@ jQuery(document).ready(function(){
     });
   });
   //탭 메뉴를 누르면 클래스가 추가되고 기존 클래스 삭제하는 기능
+  $(function() {
+    $(".win_num_menu>li>a").click(function(){
+      $(this).parent().addCalss("checked")
+      .siblings()
+      .removeClass("checked");
+      return false;
+    });
+  });
   $(document).ready(function () {
   const slider = $(".lotto");
 
