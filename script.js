@@ -74,3 +74,18 @@ document.querySelector('.mobile_menu'),addEventListener('click', function() {
   navMenu.style.display = navMenu.style.display === 'none' ? 'flex' : 'none' ;
 });
 // 햄버거 메뉴 토글 기능 추가
+const mobileMenu = document.getElementById('mobileMenu');
+const navMenu = document.getElementById('navMenu');
+const closeMenu = document.getElementById('closeMenu')
+
+//햄버거 메뉴 클릭시 메뉴 열기
+mobileMenu.addEventListener('click', () => {
+  navMenu.classList.toggle('open');
+  document.body.style.overflow = navMenu.classList.contains('open') ? 'hidden' : 'auto'; //스크롤 차단
+});
+
+//X 버튼 클릭시 메뉴 닫기
+CloseMenu.addEventListener('click', ()=> {
+  navMenu.classList.remove('open');
+  document.body.style.overflow = 'auto'; //배경 스크롤 복원
+})

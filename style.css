@@ -69,6 +69,18 @@
   .nav-menu a:hover {
     background-color: rgba(0,0,0, 0.05);
   }
+  .close-menu {
+    align-self: flex-end;
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #333;
+    cursor: pointer;
+    padding: 10px;
+  }
+  .close-menu {
+    color: #000;
+  }
   section {
     float: left;
     width: 100%;
