@@ -77,7 +77,7 @@
   .win_num_menu>li>a:hover{
     background-color: #eeeeee;
   }
-  .win_num_menu>li.active>a{
+  .win_num_menu>li.checked>a{
     background-color: #eeeeee;
   }
   section#sct3 {
