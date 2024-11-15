@@ -65,6 +65,18 @@
     height: 100px;
     line-height: 30px;
   }
+  .win_num_menu>li>a{
+    display: block;
+    font-size: 20px
+    text-align: center;
+    text-decoration: none;
+    background-color: #cccccc;
+    border: 1px solid #dddddd;
+    border-bottom: none;
+  }
+  .win_num_menu>li>a:hover{
+    background-color: #eeeeee;
+  }
   section#sct3 {
     float: left;
     width: 100%;
