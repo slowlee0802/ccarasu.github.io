@@ -74,5 +74,3 @@ jQuery(document).ready(function(){
 
   fetchLottoData(); // 초기 데이터 로드
 });
-
-});
