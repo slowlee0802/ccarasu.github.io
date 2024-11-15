@@ -61,7 +61,7 @@
   }
   .win_num_menu>li{
     float: left;
-    width: 150px;
+    width: 50%;
     height: 100px;
     line-height: 30px;
   }
