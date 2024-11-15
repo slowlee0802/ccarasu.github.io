@@ -1,23 +1,17 @@
-//이벤트 기능을 구현할 때 호환성 문제를 해결해 줄 자바스크립 라이브러리 jquery
-jQuery(document).ready(function(){
-  $(function() {
-    $(".tabmenu>li>a").click(function(){
-      $(this).parent().addClass("active")
-      .siblings()
-      .removeClass("active");
-      return false;
-    });
-  $(function() {
-    $(".win_num_menu>li>a").click(function(){
-      $(this).parent().addCalss("checked")
-      .siblings()
-      .removeClass("checked");
-      return false;
-    });
+jQuery(document).ready(function () {
+  // 탭 메뉴 클릭 시 클래스 추가 및 제거
+  $(".tabmenu > li > a").click(function () {
+    $(this).parent().addClass("active").siblings().removeClass("active");
+    return false;
   });
-  //탭 메뉴를 누르면 클래스가 추가되고 기존 클래스 삭제하는 기능
-  //로또 당첨번호 탭 메뉴를 누르면 클래스가 추가되고 기존 클래스 삭제하는 기능
-  $(document).ready(function () {
+
+  // 당첨 번호 메뉴 클릭 시 클래스 추가 및 제거
+  $(".win_num_menu > li > a").click(function () {
+    $(this).parent().addClass("checked").siblings().removeClass("checked");
+    return false;
+  });
+
+  // 로또 데이터 슬라이드 기능
   const slider = $(".lotto");
 
   async function fetchLottoData() {
